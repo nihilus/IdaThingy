@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{e9d29d86-637a-42e9-b0c2-33c5b4edee0a}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{cefa486c-71c1-49a2-b9da-cc085fc9f4ba}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Lib">
+      <UniqueIdentifier>{687eb455-7434-4ea9-859f-5e7423b572b3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Thingy.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThingyTray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\TrayIconHandler.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\FindTApplication.hpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ThingyTray.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\TrayIconHandler.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ida_busy.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ida_idle.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="IdaThingy.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
