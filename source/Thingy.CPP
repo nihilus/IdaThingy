@@ -1,12 +1,10 @@
 #include <windows.h>
 #include <ida.hpp>
 #include <loader.hpp>
-
+#include <idp.hpp>
 #include <kernwin.hpp>
 #include <auto.hpp>
 #include <netnode.hpp>
-
-#include <idp.hpp>
 #include "lib\TrayIconHandler.h"
 #include "util.h"
 #include "ThingyTray.h"

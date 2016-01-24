@@ -1,5 +1,6 @@
 #include "util.h"
-
+#include <ida.hpp>
+#include <idp.hpp>
 #include <kernwin.hpp>
 #include <loader.hpp>
 
